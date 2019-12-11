@@ -1,0 +1,35 @@
+1.print()
+2. variable declaration
+3. datatypes in python
+	integer-> int,double
+	floating values-. float
+	strings
+4. taking input from user
+	input()
+	int(input())
+	float(input())
+	
+5. conditional statements
+	only if 
+	if-else
+	if-else-if(elif)
+	nested-if
+6. looping / iterative statements
+	types of loops:
+		while and for
+		examples for while
+		examples and pattern printing using for loop
+7. data structures in python
+	lists	
+	tuples
+	strings
+	dictionaries
+8. list comprehension
+9. dictionary comprehension
+10. maps and filters
+11. iterators and generators
+
+Coming to Data Science
+all packages: numpy , pandas,matplotlib seaborn
+examples and data sets
+	

@@ -1,0 +1,53 @@
+plt.hist(master_df['Sales'][master_df['Sales']<10000)
+import seaborn as sns
+plt.hist(master_df['Sales'])
+plt.xlim(2,10000)
+
+plt.hist(master_df['Sales'][master_df['Sales']<2000)
+
+num_cols=master_df.columns[master_df.dtypes!=object]
+num_cols
+
+for i in range(len(num_cols)):
+	plt.subplot(3,3,i+1)
+	plt.hist(master_df[num_cols[i])
+
+market_df.hist()
+
+plt.hist(master_df['Product_Base_Margin'])
+
+sns.countplot(master_df['Prod_id'])
+
+plt.boxplot([1,10,20,200,50])
+
+q1=np.quantile([1,10,20,200,50],0.25) # median of first half
+q2=np.quantile([1,10,20,200,50],0.50) # median
+q3=np.quantile([1,10,20,200,50],0.75) # second half median
+
+IQR=1.5(q3-q1) # Inter quartile range
+print(q1-IQR,q3+IQR)
+#values which are outside of this range are outliers
+ you gave me the chance and you have taken back that and now I am suffering a lot to decide myself
+whether have to stay or leave
+getting full of confusions
+what these kinds of situations and all I don't know
+I am unable to decide now
+feeling nervous
+ I have  lot of future ahead , but 
+what have to do I don't understand
+
+
+
+plt.boxplot(master_df['Order_Quantity'])
+sns.boxplot(master_df['Order_Quantity'])
+sns.boxplot(y=master_df['Order_Quantity'])
+
+plt.scatter(master_df['Sales'],master_df['Discount'])
+sns.pairplot(master_df) # for numerical data
+master_df.corr()
+
+sns.boxplot(x=master_df['Product_Category'],y=master_df['Sales'])
+
+sns.boxplot(x=master_df['Product_Category'],y=master_df['Profit'])
+
+sns.jointplot(master_df['Profit'],master_df['Sales'])
