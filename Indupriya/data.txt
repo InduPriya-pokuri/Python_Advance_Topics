@@ -1,0 +1,4 @@
+This is the write command .... and this is overwrite for previous dataA new content is added to this file  A new content is added to this file  A new content is added to this file
+
+
+here we have all types of data and here used 1234567890 q1w2e3r4t5y6u7i8o9p0
